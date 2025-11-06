@@ -7,9 +7,8 @@ body{
     height: 100dvh;
 }
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    place-content: center;
     padding: 1rem;
 }
 nav{
@@ -26,5 +25,5 @@ nav a{
 }
 .aktiv_sida{
     text-decoration:underline;
-    color: blue;
+    color: orange;
 }
