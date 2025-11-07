@@ -51,9 +51,13 @@ nav a{
 .info{
     display: grid;
     place-content: center;
-    padding: 1rem
+    padding: 1rem;
+    text-align: center;
 }
-
+.info section p{
+    margin-bottom: 0.3rem;
+    font-size: 18px;
+}
 .personal_info {
     height: 100%;
     display: grid;
@@ -63,17 +67,28 @@ nav a{
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     min-height: calc(100dvh - 120px);
 }
-.personal_info section {
+.personal_info section{
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 230px;
   height: 250px;
   background: lightgray;
   outline: solid 1px #000;
   border-radius: 0.5rem;
+}
+.personal_info section p{
+    text-align: center;
+    background: #bebebe;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .personal_info section img {
   max-width: 100%;
