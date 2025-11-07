@@ -46,7 +46,7 @@ nav a{
 }
 .glaze section{
     text-align: center;
-    font-size: 32px;
+    font-size: 26px;
 }
 .info{
     display: grid;
@@ -103,10 +103,14 @@ nav a{
     align-content: center;
     grid-template-columns: repeat(4, auto);
   }
+    .glaze{
+    width: 700px;
+    }
   nav{
     justify-content: left;
   }
 }
+
 footer{
     box-shadow: 4px 0px 6px lightgray;
     display: grid;
